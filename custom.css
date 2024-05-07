@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6cc; /* Light orange background color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background color for the form container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1 {
+    text-align: center;
+    color: #d9534f; /* Reddish color for heading */
+}
+
+h2 {
+    color: #f39c12; /* Orange color for section headings */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d35400; /* Dark orange color for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #d35400; /* Dark orange border for input fields */
+    border-radius: 3px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #d9534f; /* Reddish color for buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #c0392b; /* Darker red color on hover */
+}
+
+#error-message {
+    color: #c0392b; /* Red color for error messages */
+    margin-top: 5px;
+}
